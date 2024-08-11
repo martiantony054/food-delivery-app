@@ -14,7 +14,7 @@
 .col1{
     width:400px;
     height: 250px;
-    background-image: url(./ai-generated-8609737.jpg);
+    background-image: url(./gallery-1.jpg);
     background-size: 400px 250px;
     background-repeat: no-repeat;
     
@@ -22,24 +22,257 @@
 .col2{
     width:400px;
     height: 250px;
-    background-image: url(./ai-generated-8609737.jpg);
+    background-image: url(./gallery-2.jpg);
     background-size: 400px 250px;
     background-repeat: no-repeat;
 }
 .col3{
     width:380px;
     height: 250px;
-    background-image: url(./ai-generated-8609737.jpg);
+    background-image: url(./gallery-3.jpg);
     background-size: 380px 250px;
     background-repeat: no-repeat;
 }
 .col4{
     width:315px;
     height: 250px;
-    background-image: url(./ai-generated-8609737.jpg);
+    background-image: url(./mom-7063095.jpg);
     background-size: 315px 250px;
     background-repeat: no-repeat;
 }
+.row2{
+    width: 100%;
+    height: 230px;
+}
+.col12{
+    width: 1000px;
+    height:230px;
+    float: right;
 
+}
+.row2 img{
+    position: relative;
+    left: 50px;
+}
+.col12 button:hover{
+    background-color: red;
+}
+.row3{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    
+}
+.colr{
+    width: 1600px;
+    height: 500px;
+}
+.col13{
+    width: 890px;
+    height: 490px;
+    background-image: url(https://st2.depositphotos.com/4021139/7305/i/450/depositphotos_73056127-stock-photo-any-questions-concept-on-blackboard.jpg);
+    float: left;
+    background-size: 890px 490px;
+    border-radius: 15px;
+    
+}
+.col14{
+    width: 600px;
+    height: 490px;
+    
+}
+.col14{
+  width: 400px;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.col14 button:active {
+    scale: 0.95;
+  }
+  
+  .col14 .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .col14 .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .col14 .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .col14 .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .col14 .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .col14 .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .col14 .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .col14 .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .col14 .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .col14 .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  /* From Uiverse.io by david-mohseni */ 
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+   
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  footer{
+    width: 100%;
+    height: 400px;
+
+  }
+  
+  
+  
+  
+  
+  
 
 
